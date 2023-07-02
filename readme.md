@@ -10,15 +10,6 @@ Como é um projeto de lanchonete, deve existir opção para cliente de pedir um 
 # Como utilizar
 <p>No projeto existem duas pastas, a pasta somente com front e somente com back, deve se ligar servidor e baixar as bibliotecas mencionadas abaixo. o projeto do Front nao necessita de bibliotecas, somente abrir no INDEX</p>
 
-## Ferramentas 
- - VSCODE, POSTMAN, MongoDB e GITHUB
-
- ## Frames
- - SASS, Node.JS
-
- ## Linguagem
- - JS, HTML5, CSS3, NOSQL
-
 ## Bibliotecas / preparação do ambiente do servidor
   -  npm init -y
   -  git init
@@ -26,6 +17,15 @@ Como é um projeto de lanchonete, deve existir opção para cliente de pedir um 
   -  npm i mongoose
   -  npm i --save-dev nodemon
   -  npm i cors
+
+### Ferramentas 
+ - VSCODE, POSTMAN, MongoDB e GITHUB
+
+### Frames
+ - SASS e Node.JS
+
+### Linguagem
+ - JS, HTML5, CSS3 e NOSQL
 
 ### Fotos
   - https://unsplash.com/pt-br
