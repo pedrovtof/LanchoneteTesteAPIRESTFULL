@@ -2,7 +2,7 @@
 
 # Projeto - Lanchonete
 
-<p>Teste com base no desafio Thiago (mencionado em "sobre"), no projeto lanchonete deve existir opção de cadastrar clientes e login. Tambe deve existir um painel de ADM, para editar os dados do clientes. 
+<p>Teste com base no desafio Thiago (mencionado em "sobre"), no projeto lanchonete deve existir opção de cadastrar clientes e login. Tambem deve existir um painel de ADM, para editar os dados do clientes. 
 <br>
 Como é um projeto de lanchonete, deve existir opção para cliente de pedir um lanche, no painel adm deve se cadastrar as opções de lanche e controlar os pedidos.
 </p>
