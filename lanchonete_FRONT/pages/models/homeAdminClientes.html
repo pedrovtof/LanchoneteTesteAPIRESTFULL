@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style/homeAdmin.css">
+</head>
+<body>
+    <div class="div-nav">
+        <nav id="navBar" class="nav-bar-inative">
+            <ul>
+                <li><a href="../homeAdmin.html">Home</a></li>
+                <li><a href="./homeAdminClientes.html">Clientes</a></li>
+                <li><a href="./homeAdminProdutos.html">Produtos</a></li>
+                <li><a href="./homeAdminPedidos.html">Pedidos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header">
+        <div class="menu-hamburguer">
+            <button id="ativarMenuHamburguer" onclick="ativarMenuHamburguer()" type="menu">
+                <img id="menu-hamburguer-icon" src="../../style/img/cardapio.png" alt="Menu hamburgue">
+            </button>
+        </div>
+        <div class="header-h1">
+            <h1>Painel administrativo</h1>
+        </div>
+        <div class="informativo-perfil">
+            <span id="menu-perfil-persona-texto">User</span>
+            <img id="menu-perfil-persona" src="../../style/img/do-utilizador branco.png" alt="perfil pessoa icone">
+            <span class="exit"><a href="../index.html">Sair</a></span>
+        </div>
+    </div>
+    
+    <div class="main-home"> 
+        <div class="search-user">
+            <h3 class="title-search-user">Clientes</h3> <br>
+            <div class="input-search">
+                <input type="text" placeholder="Insira nome do cliente">
+                <button>Pesquisar</button> 
+            </div>
+            <div class="result-search">
+                <div class="table">                      
+                    <table class="table-list">
+                        <tr>
+                            <td>Nome</td>
+                            <td>Email</td>
+                            <td>Numero</td>
+                            <td>Endereço</td>
+                            <td>Função Editar</td>
+                            <td>Função Deletar</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>pedro@pedro.tst</td>
+                            <td>11 191111111</td>
+                            <td>teste rua teste vila teste 24</td>
+                            <td><button>Editar</button></td>
+                            <td><button>Deletar</button></td>
+                        </tr>
+                        <tr>
+                            <td>User</td>
+                            <td>admin@admin.com</td>
+                            <td>11-11111-1111</td>
+                            <td>teste test</td>
+                            <td><button>Editar</button></td>
+                            <td><button>Deletar</button></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
+    
+    <script src="../../script/homeAdmin.js"></script>
+</body>
+</html>

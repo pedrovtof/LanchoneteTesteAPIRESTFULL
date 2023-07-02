@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karu guasu</title>
+    <link rel="stylesheet" href="../style/admin_home.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/stencil/64/anonymous-mask.png" alt="anonymous-mask" type="image/x-icon">
+</head>
+<body id="home">
+    <div class="main">
+        <div class="intro">
+            <h1>Login</h1>
+        </div>
+        <div class="form-login">
+            <form method="GET" action="./homeClientes.html" id="forms-login">
+                <div>
+                    <label >Email</label>
+                    <input class="mail" name="mail" id="mail" type="text">
+                </div>
+                <div>
+                    <label>Senha</label>
+                    <input class="password" name="password" id="password" type="password">
+                </div>
+                <div>
+                    <span style="color: antiquewhite;" id="mensagemErro"></span>
+                </div>
+                <div>
+                    <button id="enviarLogin" type="submit">Entrar</button>
+                </div>
+                <div>
+                    <button id="cadastro" class="cadastro" name="cadastro" >Cadastrar-se</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="intro-sem-cadastro">
+            <h1>Cadastrar</h1>
+        </div>
+        <div class="from-cadastrar">
+            <form action="#" method="post">
+                <div>
+                    <label>Nome</label>
+                    <input id="cadastroNome" type="text">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input id="cadastroMail" type="email">
+                </div>
+                <div>
+                    <label>Telefone</label>
+                    <input id="cadastroTel" type="tel">
+                </div>
+                <div>
+                    <label>Endereço</label>
+                    <input id="cadastroAdress" type="text">
+                </div>
+                <div>
+                    <label>Senha</label>
+                    <input id="cadastroPassword" type="password">
+                </div>
+                <div>
+                    <button id="enviarCadastro" type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../script/admin_home.js"></script>
+</body>
+</html>

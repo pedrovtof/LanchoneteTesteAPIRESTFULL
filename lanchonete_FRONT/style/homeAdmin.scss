@@ -1,0 +1,246 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0; 
+} 
+
+body{
+
+    .div-nav{
+
+        .nav-bar-inative{
+            display: none;
+        }
+
+        .nav-bar{
+
+            z-index: 1;
+            display: block;
+            position: fixed;
+            background-color: grey;
+            height: 100%;
+            width: 10vw;
+
+            ul{
+                position: relative;
+                left: 0%;
+                top: 23%;
+                width: 100%;
+                height: 60vh;
+                background-color: rgba(255, 252, 252, 0.726);
+                padding:0%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                li{
+                    font-size: 1.4em;
+                    width: 100%;
+                    height: 70%;
+                    margin: auto;
+                    text-align: center;
+                    flex-wrap: wrap;
+                    display: flex;
+                    align-content: center;
+                    
+                     &:hover{
+                        background-color: rgba(201, 13, 13, 0.808);
+                        font-style: italic;
+                    }
+                }
+                a{
+                    color: black;
+                    position: relative;
+                    left: 4%;
+                    width: 100%;
+                    padding: 9% 0%;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .header{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        position: fixed;
+        padding: 1% 0%;
+        width: 100%;
+        background-color: grey;
+        z-index: 1;
+
+
+        .menu-hamburguer{
+
+            display: block;
+            position: relative;
+            margin-left: 25px;
+
+            button{
+                border: none;
+                background-color: rgba(255, 255, 255, 0);
+                #menu-hamburguer-icon{
+                    width: 28px;
+                    border: 2px solid rgb(240, 237, 237);
+                    box-sizing: content-box;
+                    padding: 5px;
+                    border-radius: 10px;
+                }&:hover{
+                    background-color: rgba(201, 13, 13, 0.808);
+                    border-radius: 10px;
+                    height: 42px;
+                } 
+            }          
+        }
+
+        .header-h1{
+
+            h1{
+                color: white;
+                display: block;
+            }
+        }
+
+        .informativo-perfil{
+
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            margin-right: 15px;
+            border: 1px solid black;
+            box-sizing: content-box;
+            
+            span{   
+
+                color: black;
+                padding: 10px;
+                border: 1px solid black;
+                box-sizing: content-box;
+                border-radius: 0px;
+                padding: 10px;
+                a{
+                    color: black;
+                    &:hover{
+                        color: white;}
+                }
+                &:hover{
+                    color: white;
+                    background-color: rgba(201, 13, 13, 0.808);
+                }
+            } 
+
+            #menu-perfil-persona{
+
+                width: 26px;
+                border: 1px solid black;
+                box-sizing: content-box;
+                border-radius: 0px;
+                padding: 10px;
+                &:hover{
+                    background-color: rgba(201, 13, 13, 0.808);
+                }
+            }
+        }
+    }
+
+    .main-home{
+        position: fixed;
+        left: 0%;
+        display: block;
+        z-index: 0;
+        margin: 5% auto;
+        background-color: white;
+        width: 100vw;
+        height: 90vh; 
+        background-image: url(./img/bud-coca-batata.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+        .search-user{
+            display: block;
+            position: relative;
+            margin: auto;
+            background: white;
+            width: 60%;
+            top: 20%;
+            left: 0%;
+            text-align: center;
+            border: 5px solid white;
+            border-radius: 15px;
+
+            .input-search{
+                display: inline-flex;
+                width: inherit;
+
+                input{
+                    width: 60%;
+                    border-radius: 1px;
+                }
+
+                button{
+                    width: 40%;
+                    border-radius: 1px;
+                    &:hover{
+                        background-color: rgba(201, 13, 13, 0.808);
+                    }
+                }
+            }
+
+            .result-search{
+                text-align: center;
+                margin: auto;
+                position: relative;
+                left: 25%;
+                
+                
+                 .table{
+
+                    width: fit-content;
+                    margin: 10px auto;
+                    text-align: center;
+                    position: relative;
+                    left: -25%;
+                    
+                    .table-list{
+                        display: table-row;
+                        position: relative;
+
+                        tr{
+                            box-sizing: border-box;
+                            justify-content: space-between;
+                            padding: 0px;
+
+                            td{
+                                width: 25%;
+                                padding: 5px;
+                                margin: 0px ;
+                                border: 1px solid black;
+                                border-radius: 2px;
+
+                                button{
+                                    border-radius: 5px;
+                                    box-sizing: border-box;
+                                    padding: 1px;
+                                    background-color: #b7acac;;
+                                    &:hover{
+                                        background-color: rgba(201, 13, 13, 0.808);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                 }
+                
+            }
+        }
+    }
+        
+          
+         
+}

@@ -1,0 +1,206 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body .div-nav .nav-bar-inative {
+  display: none;
+}
+body .div-nav .nav-bar {
+  z-index: 1;
+  display: block;
+  position: fixed;
+  background-color: grey;
+  height: 100%;
+  width: 10vw;
+}
+body .div-nav .nav-bar ul {
+  position: relative;
+  left: 0%;
+  top: 23%;
+  width: 100%;
+  height: 60vh;
+  background-color: rgba(255, 252, 252, 0.726);
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body .div-nav .nav-bar ul li {
+  font-size: 1.4em;
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+}
+body .div-nav .nav-bar ul li:hover {
+  background-color: rgba(201, 13, 13, 0.808);
+  font-style: italic;
+}
+body .div-nav .nav-bar ul a {
+  color: black;
+  position: relative;
+  left: 4%;
+  width: 100%;
+  padding: 9% 0%;
+}
+body .div-nav .nav-bar ul a:hover {
+  color: white;
+}
+body .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1% 0%;
+  width: 100%;
+  background-color: grey;
+  z-index: 1;
+}
+body .header .menu-hamburguer {
+  display: block;
+  position: relative;
+  margin-left: 25px;
+}
+body .header .menu-hamburguer button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+body .header .menu-hamburguer button #menu-hamburguer-icon {
+  width: 28px;
+  border: 2px solid rgb(240, 237, 237);
+  box-sizing: content-box;
+  padding: 5px;
+  border-radius: 10px;
+}
+body .header .menu-hamburguer button:hover {
+  background-color: rgba(201, 13, 13, 0.808);
+  border-radius: 10px;
+  height: 42px;
+}
+body .header .header-h1 h1 {
+  color: white;
+  display: block;
+}
+body .header .informativo-perfil {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-right: 15px;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+body .header .informativo-perfil span {
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  box-sizing: content-box;
+  border-radius: 0px;
+  padding: 10px;
+}
+body .header .informativo-perfil span a {
+  color: black;
+}
+body .header .informativo-perfil span a:hover {
+  color: white;
+}
+body .header .informativo-perfil span:hover {
+  color: white;
+  background-color: rgba(201, 13, 13, 0.808);
+}
+body .header .informativo-perfil #menu-perfil-persona {
+  width: 26px;
+  border: 1px solid black;
+  box-sizing: content-box;
+  border-radius: 0px;
+  padding: 10px;
+}
+body .header .informativo-perfil #menu-perfil-persona:hover {
+  background-color: rgba(201, 13, 13, 0.808);
+}
+body .main-home {
+  position: fixed;
+  left: 0%;
+  display: block;
+  z-index: 0;
+  margin: 5% auto;
+  background-color: white;
+  width: 100vw;
+  height: 90vh;
+  background-image: url(./img/bud-coca-batata.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body .main-home .search-user {
+  display: block;
+  position: relative;
+  margin: auto;
+  background: white;
+  width: 60%;
+  top: 20%;
+  left: 0%;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 15px;
+}
+body .main-home .search-user .input-search {
+  display: inline-flex;
+  width: inherit;
+}
+body .main-home .search-user .input-search input {
+  width: 60%;
+  border-radius: 1px;
+}
+body .main-home .search-user .input-search button {
+  width: 40%;
+  border-radius: 1px;
+}
+body .main-home .search-user .input-search button:hover {
+  background-color: rgba(201, 13, 13, 0.808);
+}
+body .main-home .search-user .result-search {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  left: 25%;
+}
+body .main-home .search-user .result-search .table {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
+  left: -25%;
+}
+body .main-home .search-user .result-search .table .table-list {
+  display: table-row;
+  position: relative;
+}
+body .main-home .search-user .result-search .table .table-list tr {
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 0px;
+}
+body .main-home .search-user .result-search .table .table-list tr td {
+  width: 25%;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+body .main-home .search-user .result-search .table .table-list tr td button {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 1px;
+  background-color: #b7acac;
+}
+body .main-home .search-user .result-search .table .table-list tr td button:hover {
+  background-color: rgba(201, 13, 13, 0.808);
+}/*# sourceMappingURL=homeAdmin.css.map */

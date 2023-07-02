@@ -1,0 +1,134 @@
+#admin {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/montanha-xburguer.jpg);
+  height: 98vh;
+}
+
+#home {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/umacoca-umasbabatas.jpg);
+  height: 98vh;
+}
+
+.main {
+  width: 50%;
+  background-color: rgba(54, 58, 58, 0.616);
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  align-content: center;
+}
+.main .intro {
+  display: block;
+  margin: 5% auto auto auto;
+  text-align: center;
+  padding-top: 4%;
+  color: antiquewhite;
+}
+.main .form-login {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+  width: 40vw;
+}
+.main .form-login form {
+  display: table;
+  text-align: center;
+  margin: auto;
+}
+.main .form-login form div {
+  margin: 10% auto;
+}
+.main .form-login form div label {
+  color: antiquewhite;
+  text-transform: uppercase;
+}
+.main .form-login form div label::after {
+  content: " | ";
+}
+.main .form-login form div label::before {
+  content: " | ";
+}
+.main .form-login form div input {
+  margin-top: 2%;
+  box-sizing: content-box;
+  border: 1px solid black;
+  padding: 2.5% 5%;
+  margin-bottom: 5%;
+  width: 20vw;
+  background-color: rgba(187, 224, 216, 0.74);
+  border-radius: 10px;
+}
+.main .form-login form div button {
+  margin-top: 2%;
+  box-sizing: content-box;
+  border: 1px solid black;
+  padding: 2.5% 5%;
+  margin-bottom: 5%;
+  width: 20vw;
+  background-color: rgba(187, 224, 216, 0.74);
+  border-radius: 10px;
+}
+.main .form-login form div button:hover {
+  background-color: rgba(241, 197, 0, 0.527);
+}
+.main .intro-sem-cadastro {
+  display: none;
+  margin: 5% auto auto auto;
+  text-align: center;
+  padding-top: 4%;
+  color: antiquewhite;
+}
+.main .from-cadastrar {
+  display: none;
+  text-align: center;
+  margin: 5% auto;
+  width: 40vw;
+}
+.main .from-cadastrar form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+.main .from-cadastrar form div {
+  margin: 2% auto;
+}
+.main .from-cadastrar form div label {
+  color: antiquewhite;
+  text-transform: uppercase;
+}
+.main .from-cadastrar form div label::after {
+  content: " | ";
+}
+.main .from-cadastrar form div label::before {
+  content: " | ";
+}
+.main .from-cadastrar form div input {
+  margin-top: 2%;
+  box-sizing: content-box;
+  border: 1px solid black;
+  padding: 2.5% 5%;
+  margin-bottom: 1%;
+  width: 20vw;
+  background-color: rgba(187, 224, 216, 0.74);
+  border-radius: 10px;
+}
+.main .from-cadastrar form div button {
+  margin-top: 2%;
+  box-sizing: content-box;
+  border: 1px solid black;
+  padding: 2.5% 0%;
+  margin-bottom: 5%;
+  width: 20vw;
+  background-color: rgba(187, 224, 216, 0.74);
+  border-radius: 10px;
+}
+.main .from-cadastrar form div button:hover {
+  background-color: rgba(241, 197, 0, 0.527);
+}/*# sourceMappingURL=admin_home.css.map */
