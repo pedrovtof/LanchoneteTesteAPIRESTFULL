@@ -42,23 +42,23 @@
             <form action="#" method="post">
                 <div>
                     <label>Nome</label>
-                    <input id="cadastroNome" type="text">
+                    <input placeholder="Completo" maxlength="254"  id="cadastroNome" type="text" required>
                 </div>
                 <div>
                     <label>Email</label>
-                    <input id="cadastroMail" type="email">
+                    <input maxlength="40"  id="cadastroMail" type="email" required>
                 </div>
                 <div>
                     <label>Telefone</label>
-                    <input id="cadastroTel" type="tel">
+                    <input maxlength="11"  inputmode="numeric" placeholder="Apenas numeros" pattern="[0-9]*" id="cadastroTel" type="tel" required>
                 </div>
                 <div>
                     <label>Endereço</label>
-                    <input id="cadastroAdress" type="text">
+                    <input maxlength="254" placeholder="Com complemento"  id="cadastroAdress" type="text" required>
                 </div>
                 <div>
                     <label>Senha</label>
-                    <input id="cadastroPassword" type="password">
+                    <input maxlength="12" placeholder="Maximo 12 caracteres" id="cadastroPassword" type="password" required>
                 </div>
                 <div>
                     <button id="enviarCadastro" type="submit">Cadastrar</button>

@@ -13,7 +13,7 @@ Como é um projeto de lanchonete, deve existir opção para cliente de pedir um 
 ## Bibliotecas / preparação do ambiente do servidor
   -  npm init -y
   -  git init
-  -  -npm i express
+  -  npm i express
   -  npm i mongoose
   -  npm i --save-dev nodemon
   -  npm i cors

@@ -7,7 +7,11 @@ const ProdutosControler = require('../controllers/produtos');
 
 //api
 router.get('/pedidos/', PedidosControler.get)
-router.get('/clientes/', ClientesControler.get)
+
+router.get('/clientes/:id?', ClientesControler.ListarClientes)
+router.post('/login/:id?', ClientesControler.loginUser)
+router.post('/clientes', ClientesControler.CriarCliente)
+
 router.get('/products/', ProdutosControler.get)
 
 

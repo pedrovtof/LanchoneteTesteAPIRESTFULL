@@ -1,5 +1,5 @@
 
-const pedidoModels = require('../models/produtos')
+const produtoModels = require('../models/produtos')
 
 function get(){
     console.log('produtos on')

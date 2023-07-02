@@ -22,7 +22,7 @@ formulario.addEventListener('submit', function loginUser(e){
         mensagemErro.innerHTML=mensagemErroTexto
         formulario.submit()
     } 
-    else{console.log('tete')}
+    else{console.log('ERROR')}
 
 })
  
