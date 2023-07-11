@@ -10,7 +10,7 @@ router.get('/pedidos/', PedidosControler.get)
 
 router.get('/clientes/:id?', ClientesControler.ListarClientes)
 router.post('/login/:id?', ClientesControler.loginUser)
-router.post('/clientes', ClientesControler.CriarCliente)
+router.post('/clientes', ClientesControler.CriarCliente) 
 
 router.get('/products/', ProdutosControler.get)
 

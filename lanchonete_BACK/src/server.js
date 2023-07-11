@@ -10,7 +10,7 @@ const routes = require('./routes/route')
 
  
 //conecta banco
-db.connect()
+db.connect() 
 
 //lista para acesso cors
 const allowedOrigins = [

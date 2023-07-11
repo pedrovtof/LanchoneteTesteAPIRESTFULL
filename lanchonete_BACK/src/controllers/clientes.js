@@ -44,8 +44,7 @@ async function CriarCliente(req, res){
    else if(!validate_phone || !validate_mail){
        cliente.save();
         res.send({
-            message: "Sucesso",
-            validate
+            message: "Sucesso"
         })
    }
    else{
