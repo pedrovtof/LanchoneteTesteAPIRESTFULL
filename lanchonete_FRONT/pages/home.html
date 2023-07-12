@@ -39,7 +39,7 @@
             <h1>Cadastrar</h1>
         </div>
         <div class="from-cadastrar">
-            <form action="#" method="post">
+            <form action="#" id="fromCadastrar">
                 <div>
                     <label>Nome</label>
                     <input placeholder="Completo" maxlength="254"  id="cadastroNome" type="text" required>
@@ -61,7 +61,8 @@
                     <input maxlength="12" placeholder="Maximo 12 caracteres" id="cadastroPassword" type="password" required>
                 </div>
                 <div>
-                    <button id="enviarCadastro" type="submit">Cadastrar</button>
+                    <span style="color: antiquewhite;" id="mensagemRetorno"></span><br>
+                    <button id="enviarCadastro">Cadastrar</button>
                 </div>
             </form>
         </div>
